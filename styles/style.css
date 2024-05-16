@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+:root {
+    /*cores*/
+    --text-color: #ffffff;
+    --text-color-hover: #C4C4CC;
+    --btn-hover:#02799D;
+}
+
+body {
+    background-image: url("/assets/mountains-universe-1.png");
+    /*ajustes da imagem*/
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    overflow: hidden;
+    padding-left: 2rem;
+    padding-top: 2.6rem;
+}
+
+nav a img {
+    float: left;
+}
+
+nav a {
+    color: var(--text-color);
+    text-align: center;
+    padding: 33px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: var(--text-color-hover);
+}
+
+nav img {
+    width: 50px;
+    height: 42px;
+    padding-right: 33px;
+}
+
+#container {
+    height: 70vh;
+    display: grid;
+    place-content: center;
+}
+
+.explore h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.explore button {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 24px;
+    background-color: transparent;
+    padding: 12px 32px ;
+    border: solid 2px #ffffff;
+    color: var(--text-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background .3s;
+}
+.explore button:hover{
+    background-color: var(--text-color);
+    color: var(--btn-hover);
+    
+}
