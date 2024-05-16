@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body{
+    background-image: url(/assets/mountains-universe02.png) ;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.container h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 8px;
+}
+.container p{
+    font-size: 18px;
+    padding: 8px;
+}
